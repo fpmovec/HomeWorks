@@ -29,7 +29,7 @@ Console.WriteLine("-------------------------------------------");
 ///////////////
 var length = from p in cars
              select p.Length;
-Print(length);
+
 
 var length1 = cars.Select(p => p.Length);
 Print(length1);
